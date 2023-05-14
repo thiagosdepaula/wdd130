@@ -10,6 +10,7 @@ nav a{
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    color: black;
 }
 .button-box {
     text-align: center;
@@ -26,7 +27,7 @@ header {
 }
 nav a:hover {
     background-color: black;
-    color: black;
+    color: #78c5d7;
 }
 .book , .join {
     background-color: white;
