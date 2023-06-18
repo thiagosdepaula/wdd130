@@ -234,7 +234,8 @@ body {
     margin: 0;
     padding: 0;
 }
-#hero-msg {
+#hero-msg1 {
+    display: grid;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -242,27 +243,32 @@ body {
     text-align: left;
     
 }
+.home-title {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
 .box {
     background-color: #134266;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/span 4;
-    grid-row: 6/span 1;
-    box-shadow: 5px 5px 10px #6f7364;
-    padding: 20px;
     margin-bottom: 20px;
+    color: white;
+    text-align: center;
 }
-
 .content {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 20px;
     color: black;
 }
-.image {
-    flex: 1;
-}
+
 .text {
     flex: 1;
     margin-left: 20px;
+    float: right;
+    margin: 20px;
+    padding-top: 40px;
   }
