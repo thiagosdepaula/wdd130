@@ -222,3 +222,47 @@ h2 {
         margin-top: 25px;
     }
 }
+
+/* CSS for the blog page */
+
+
+body {
+    background-color: aliceblue;
+    
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    color: white;
+    text-align: left;
+    
+}
+.box {
+    background-color: #134266;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/span 4;
+    grid-row: 6/span 1;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    color: black;
+}
+.image {
+    flex: 1;
+}
+.text {
+    flex: 1;
+    margin-left: 20px;
+  }
