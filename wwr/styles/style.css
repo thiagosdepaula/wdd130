@@ -226,28 +226,25 @@ h2 {
 /* CSS for the blog page */
 
 
-body {
-    background-color: aliceblue;
-    
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+
+.content {
+    display:flex;
+    gap: 44px;
+    padding: 0px 40px;
+    align-items: center;
+
 }
-#hero-msg1 {
+.right {
+    text-align: right;
+}
+.blog-grid {
     display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    color: white;
-    text-align: left;
-    
+    gap: 50px;
+    margin-top: 40px;
 }
-.home-title {
-    color: white;
-    text-align: center;
-    padding: 30px;
-    margin-top: 50px;
+.image img {
+    border-radius: 8px;
+
 }
 .box {
     background-color: #134266;
@@ -257,18 +254,3 @@ body {
     color: white;
     text-align: center;
 }
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 20px;
-    color: black;
-}
-
-.text {
-    flex: 1;
-    margin-left: 20px;
-    float: right;
-    margin: 20px;
-    padding-top: 40px;
-  }
