@@ -1,0 +1,52 @@
+img {
+    width: 40%;
+}
+.logo {
+    width: 40px;
+}
+.image-container {
+    display: flex;
+}
+  
+.image-container img {
+    width: 33.33%; 
+    height: auto;
+}
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 20%;
+}
+.section img {
+    width: 10%;
+}
+  
+.left-content {
+    flex: 1;
+}
+  
+.right-content {
+    flex: 1;
+    text-align: right;
+}
+  
+.right-content img,
+.left-content img {
+    max-width: 100%;
+    height: auto;
+}
+/*.container {
+    display: flex;
+    align-items: center;
+}*/
+  
+.container img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+  
