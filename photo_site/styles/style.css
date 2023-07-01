@@ -1,5 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: "Cormorant", "Roboto", Helvetica;
+    font-size: 22px;
+    background-color:  #FFFCF3;
+}
+nav a{
+    text-align: center;
+    color: #524F4A;
+    text-decoration: none;
+    padding: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #B89A8C;
+    color: #524F4A;
+}
+#hero-img {
+    width: 100%;
+}
 img {
-    width: 40%;
+    width: 30%;
+}
+#logo_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+
+}
+#logo2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.message {
+    padding: 60px;
+}
+  
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
 .logo {
     width: 40px;
@@ -36,17 +84,55 @@ img {
     max-width: 100%;
     height: auto;
 }
-/*.container {
-    display: flex;
-    align-items: center;
-}*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-template-rows: 300px 1fr 1fr;
+}
   
 .container img {
-    width: 200px;
+    width: 50%;
     height: auto;
     margin-right: 20px;
+    grid-column: 1/span 2;
+    grid-row: 1/span 3;
+    align-items: center;   
+    padding: 100px; 
+    padding-left: 400px;
+}
+.container h2 {
+    padding-top: 70px;
+    padding-right: 100px;
+    
+}
+.container p {
+    padding-right: 300px;
+    margin-top: -40px;
+    text-align: left;
+    
+}
+footer {
+    background-color: #B89A8C;
+    color: #524F4A;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #524F4A;
 }
 footer .social img {
     padding-top: 15px;
 }
-  
