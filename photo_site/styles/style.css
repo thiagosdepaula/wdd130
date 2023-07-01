@@ -25,13 +25,7 @@ nav a:hover {
 img {
     width: 30%;
 }
-#logo_link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200%;
 
-}
 #logo2 {
     
     display: flex;
